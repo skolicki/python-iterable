@@ -1,6 +1,6 @@
 import json
 
-import error
+from . import error
 import iterable
 
 from .http_client import RequestsClient

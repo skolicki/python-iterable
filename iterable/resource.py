@@ -2,7 +2,7 @@ import iterable
 
 from requests.compat import urljoin
 
-import error
+from . import error
 from .api_requestor import APIRequestor
 
 
